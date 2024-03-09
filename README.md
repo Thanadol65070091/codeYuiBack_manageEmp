@@ -4,7 +4,8 @@
 
 ### ไฟล์โค้ดที่มีในโฟลเดอร์นี้ มีเฉพาะพวกการจัดการพนักงานเท่านั้น (เพิ่ม ลบ ดูข้อมูล แก้ไขข้อมูล)
 
-backup code employee.db (ข้อมูลเริ่มต้น ชื่ออาจโบราณหน่อยขออภัย) 
+
+#### backup code employee.db (ข้อมูลเริ่มต้น ชื่ออาจโบราณหน่อยขออภัย) 
 
 INSERT INTO employee (id, FirstName, LastName, NickName, Tel, Username, Password, Position)
 VALUES 
