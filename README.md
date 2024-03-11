@@ -1,11 +1,8 @@
-# อย่าลืม ต้องมี employee.db อยู่ในโฟลเดอร์เดียวกับพวกโค้ด
+# อย่าลืม ต้องมี employee.db   manager.db  อยู่ในโฟลเดอร์เดียวกับพวกโค้ด
 
-## พวก css, html ที่หายไป รวมอยู่ใน php เรียบร้อยแล้ว
+## พวก css, html ที่หายไป รวมอยู่ใน php เรียบร้อยแล้ว (บางอันยังมีอยู่)
 
-### ไฟล์โค้ดที่มีในโฟลเดอร์นี้ มีเฉพาะพวกการจัดการพนักงานเท่านั้น (เพิ่ม ลบ ดูข้อมูล แก้ไขข้อมูล)
-
-
-#### backup code employee.db (ข้อมูลเริ่มต้น ชื่ออาจโบราณหน่อยขออภัย) 
+#### backup code employee.db (ข้อมูลเริ่มต้น)
 
 INSERT INTO employee (id, FirstName, LastName, NickName, Tel, Username, Password, Position)
 VALUES 
