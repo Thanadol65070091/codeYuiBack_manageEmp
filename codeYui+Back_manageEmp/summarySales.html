@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary of Sales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="summarySales.css" />
+</head>
+<body>
+    <div class="head">
+        <button id="arrow"><a
+            href="home_manager.html" style="text-decoration:none; color: #000;">
+            <i class="fa-solid fa-arrow-left"></i></a>
+        </button>
+        <h1 style="padding: 30px; margin: 0%;">สรุปยอดขาย</h1>
+    </div>
+    <div class="box">
+        <div class="date">
+            <div id="dateselected">
+                <p>ประจำวันที่ : </p>
+            </div>
+            <div id="xxx">
+                <div id="calendar">
+                    <label for="cars">เลือกวันที่ : </label>
+                    <input type="date" name="calendar"
+                        style="border-radius: 30px; border: none; background-color: #E2C2F3;">
+                </div>
+            </div>
+        </div>
+        <div class="Summary">
+            <div id="sbox">
+                <p>จำนวนรายการคำสั่งซื้อ :</p>
+                <p>รายได้ทั้งหมด :</p>
+                <p>รายได้สุทธิ :</p>
+            </div>
+        </div>
+        <div class="top3">
+            <p style="font-weight: bold; font-size: 20px;">เมนูขายดีประจำวัน</p>
+            <div class="graph">
+                <div class="graph_bar" style="width: 60%; background-color: #ADCEC3;">
+                    <p style="float: left;">1. เค้กส้ม</p>
+                    <p style="float: right;">60 %</p>
+                </div>
+                <div class="graph_bar" style="width: 42%; background-color: #FFD6B0;">
+                    <p style="float: left;">2. โดนัทช็อกโกแลต</p>
+                    <p style="float: right;">42 %</p>
+                </div>
+                <div class="graph_bar" style="width: 25%; background-color: #F9C7C6;">
+                    <p style="float: left;">3. มอคค่า</p>
+                    <p style="float: right;">25 %</p>
+                </div>
+            </div>
+            <div style="margin-right: 100px;">
+                <p style="float: right;">จากทั้งหมด xx รายการ</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

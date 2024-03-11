@@ -133,7 +133,7 @@
 
 <body>
     <div class="head">
-        <button id="arrow"><a href="addEmp.php" style="text-decoration:none; color: #000;">
+        <button id="arrow"><a href="home_manager.html" style="text-decoration:none; color: #000;">
                 <i class="fa-solid fa-arrow-left"></i></a>
         </button>
         <h1 style="padding: 30px; margin: 0%;">จัดการพนักงาน</h1>
