@@ -3,7 +3,7 @@
 ## พวก css, html ที่หายไป รวมอยู่ใน php เรียบร้อยแล้ว (บางอันยังมีอยู่)
 
 #### backup code employee.db (ข้อมูลเริ่มต้น)
-
+#### ถ้าจะ login ในฐานะพนักงาน ก็ใช้ Username กับ Password ตามด้านล่างนี้เลย
 INSERT INTO employee (id, FirstName, LastName, NickName, Tel, Username, Password, Position)
 VALUES 
 (1, 'สยาม', 'เมืองยิ้ม', 'สยาม', '080-567-1111', 'sayam', 'password1', 'พ่อครัว'),
@@ -26,3 +26,11 @@ VALUES
 (18, 'สมสู่', 'สุขสบาย', 'สมสู่', '085-345-6789', 'somsu', 'password18', 'พนักงาน'),
 (19, 'สมบูรณ์', 'สุขภาพ', 'บูรณ์', '085-456-7890', 'sombun', 'password19', 'พนักงาน'),
 (20, 'สมเกียรติ', 'ทวีสุข', 'เกียรติ', '085-567-8901', 'somkiat', 'password20', 'พนักงาน');
+
+
+### backup code manager.db (ข้อมูลเริ่มต้น (มีผู้จัดการคนเดียว))
+#### ถ้าจะลอง login ในฐานะผู้จัดการ ใช้ username กับ password ตามด้านล่างนี้เลย
+
+INSERT INTO manager (manager_id, first_name, last_name, nickname, tel, username, password, position)
+VALUES (1, 'สุดสวย', 'สง่างาม', 'สวย', '0812345678', 'beautiful_manager', 'beautiful123', 'ผู้จัดการ');
+
